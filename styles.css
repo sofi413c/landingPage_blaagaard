@@ -1,0 +1,100 @@
+body {
+  /* margin: 0 auto; */
+  float: none;
+}
+/* ____________DESKTOPVIEW */
+@media (min-width: 769px) {
+  .container_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_v {
+    background-image: url("img/ansigt_baggrund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  .grid_h {
+    background-image: url("img/sort_baggrund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-family: arial;
+    color: white;
+    font-size: 4rem;
+    /* for at se forskel */
+    color: pink;
+  }
+
+  h2 {
+    font-family: arial;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .grid_h a {
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    font-size: 4rem;
+    margin-top: 30px;
+  }
+
+  .grid_h a:hover {
+    color: gray;
+  }
+}
+
+/* __________MOBILVIEW */
+@media (max-width: 768px) {
+  .container_grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .grid_v {
+    background-image: url("img/ansigt_baggrund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  .grid_h {
+    background-image: url("img/sort_baggrund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-family: arial;
+    color: white;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-family: arial;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .grid_h a {
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .grid_h a:hover {
+    color: gray;
+  }
+}
