@@ -21,6 +21,10 @@ video {
   font-family: Druk_wide;
   src: url(fonts/DrukTextWide-Heavy-Trial.otf);
 }
+@font-face {
+  font-family: Druk_medium_brodtekst;
+  src: url(fonts/DrukTextWide-Medium-Trial.otf);
+}
 
 h1,
 p {
