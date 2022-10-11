@@ -90,18 +90,6 @@ section {
   justify-content: center;
 } */
 
-footer {
-  background: black;
-  padding: 2rem;
-  /* padding: 50px 0; */
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .medier {
 }
 
