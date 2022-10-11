@@ -5,8 +5,15 @@ body {
 main {
   display: block;
 }
+
 img {
   border-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Typografi */
@@ -21,10 +28,12 @@ p {
 }
 
 h1 {
-  color: white;
   font-family: Druk_wide;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
 }

@@ -3,6 +3,11 @@
   src: url(fonts/DrukTextWide-Heavy-Trial.otf);
 }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   position: relative;
   color: white;
@@ -26,4 +31,79 @@ header nav ul {
 header ul li {
   float: left;
   padding: 0px 15px 4% 15px;
+}
+
+section {
+  gap: 2rem;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+@media (min-width: 600px) {
+  section {
+  }
+
+  .section_1,
+  .section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tekst_2 {
+    order: -1;
+  }
+}
+
+/************ FOOTER ************/
+
+/* .ground {
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+footer {
+  background: black;
+  padding: 50px 0;
+}
+
+.footer_container {
+  max-width: 1300px;
+  margin: auto;
+  height: 20vh;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.logo {
+  width: 180px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social_media {
+  margin: 20px 150px;
+  display: flex;
+}
+.social_media img {
+  width: 20%;
+  height: 100%;
+}
+
+.social_media a {
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.social_media a:hover {
+  color: #5885bc;
 }
