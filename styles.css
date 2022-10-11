@@ -69,36 +69,13 @@
   float: left;
   padding: 0px 15px 4% 15px;
 }
-.footer {
-  position: relative;
-  top: 92%;
-  color: white;
-  z-index: 999;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  border-width: 2px;
-  border-style: solid none none none;
-  border-color: white;
-  margin-left: 2.5%;
-  margin-right: 49%;
-}
-.footer ul {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-}
-.footer ul li {
-}
-.footer img {
-  width: 15%;
-}
 @media only screen and (min-width: 800px) {
   .wrapper {
     display: flex;
   }
   .wrapper .left,
   .wrapper .right {
-    width: 50%;
+    width: 60;
     height: 100vh;
   }
   .wrapper .splash_text_right {
@@ -106,8 +83,5 @@
     align-self: center;
     font-family: Druk_wide;
     font-size: 2rem;
-  }
-  .footer {
-    top: 88%;
   }
 }
