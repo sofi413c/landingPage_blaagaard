@@ -47,5 +47,5 @@ a {
 }
 
 li a:hover {
-  font-weight: bold;
+  text-shadow: 0 0 10px #ffffff;
 }
