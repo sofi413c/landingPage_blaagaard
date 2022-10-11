@@ -50,11 +50,36 @@ li a:hover {
   text-shadow: 0 0 20px #ffffff;
 }
 
-/* ---------------- Footer ---------------- */
+/* ---------------- Header ---------------- */
+.header {
+  position: relative;
+  color: white;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: right;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width: 2px;
+  border-style: none none solid none;
+  margin-left: 5%;
+  border-color: white;
+}
+.header nav ul {
+  list-style: none;
+}
+.header ul li {
+  float: left;
+  padding: 0px 15px 4% 15px;
+}
 
+/* ---------------- Footer ---------------- */
 footer {
   background: black;
   padding: 2rem;
+  margin-top: 5rem;
+  border-top: 2px solid white;
 }
 
 .container {
@@ -62,6 +87,10 @@ footer {
 }
 
 @media (min-width: 800px) {
+  footer {
+    margin-inline: 10rem;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;
