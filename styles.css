@@ -25,6 +25,9 @@
   display: flex;
   justify-content: space-around;
 }
+/* .back_vid {
+  position: relative;
+} */
 .wrapper .splash_logo_left {
   width: 50%;
   background-position: center;
