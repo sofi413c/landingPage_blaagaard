@@ -8,3 +8,23 @@ main {
 img {
   border-style: none;
 }
+
+/* Typografi */
+@font-face {
+  font-family: Druk_wide;
+  src: url(fonts/DrukTextWide-Heavy-Trial.otf);
+}
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: Druk_wide;
+  font-size: 2rem;
+}
+
+p {
+}
