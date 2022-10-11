@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Druk_wide;
+  src: url(fonts/DrukTextWide-Heavy-Trial.otf);
+}
+
+header {
+  position: relative;
+  color: white;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: right;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width: 2px;
+  border-style: none none solid none;
+  margin-left: 5%;
+  border-color: white;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  padding: 0px 15px 4% 15px;
+}
