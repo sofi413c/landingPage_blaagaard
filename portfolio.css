@@ -92,15 +92,25 @@ section {
 
 footer {
   background: black;
+  padding: 2rem;
   /* padding: 50px 0; */
 }
 
-.footer_container {
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medier {
+}
+
+/* .footer_container {
   display: flex;
   justify-content: space-between;
   max-width: 1300px;
   margin: auto;
-}
+} */
 
 /* .footer_container {
   max-width: 1300px;
