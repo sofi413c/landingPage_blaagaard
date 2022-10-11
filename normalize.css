@@ -47,5 +47,24 @@ a {
 }
 
 li a:hover {
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0 20px #ffffff;
+}
+
+/* ---------------- Footer ---------------- */
+
+footer {
+  background: black;
+  padding: 2rem;
+}
+
+.container {
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
