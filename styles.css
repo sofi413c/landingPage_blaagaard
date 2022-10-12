@@ -21,7 +21,7 @@
 
 /* ---------------- Left side ---------------- */
 .face {
-  background-image: url("img/ansigt_baggrund.png");
+  background-image: url("img/ansigt_baggrund.webp");
   display: flex;
   justify-content: space-around;
 }
@@ -42,7 +42,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("img/50blank_web.png");
+  background-image: url("img/50blank_web.webp");
 }
 .wrapper .splash_text_right {
   color: white;

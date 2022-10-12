@@ -4,7 +4,7 @@ main {
 }
 
 body {
-  background-image: url(img/blank_mobile_port.png);
+  background-image: url(img/blank_mobile_port.webp);
   background-size: contain;
   background-position: center;
 }
@@ -17,7 +17,7 @@ section {
 
 @media (min-width: 800px) {
   body {
-    background-image: url(img/blank_web_port.png);
+    background-image: url(img/blank_web_port.webp);
     background-size: cover;
   }
 
