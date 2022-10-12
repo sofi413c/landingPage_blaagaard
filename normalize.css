@@ -66,13 +66,13 @@ li a:hover {
   position: relative;
   color: white;
   z-index: 999;
-  align-items: center;
+  /* align-items: center; */
   text-decoration: none;
   justify-content: right;
   margin-right: 10rem;
   font-family: Arial, Helvetica, sans-serif;
-  border-bottom: 2px solid white;
-  margin-left: 5%;
+  /* border-bottom: 2px solid white; */
+  /* margin-left: 5%; */
   padding: 1.5rem;
 }
 .header nav ul {
@@ -97,9 +97,10 @@ header nav li {
   padding: 0px 15px 0.5rem 15px;
 }
 
-header nav ul {
+/* header nav ul,
+.header nav ul {
   border-bottom: 2px solid white;
-}
+} */
 
 .logo {
   max-width: 100%;
