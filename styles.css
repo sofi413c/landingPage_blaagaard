@@ -19,7 +19,7 @@
   left: 0;
 }
 
-/************ left side *********/
+/* ---------------- Left side ---------------- */
 .face {
   background-image: url("img/ansigt_baggrund.png");
   display: flex;
@@ -36,7 +36,7 @@
   background-image: url("img/Blaagaard_overskrift_hvid.svg");
 }
 
-/************ right side *********/
+/* ---------------- Right side ---------------- */
 
 .blank {
   display: flex;
