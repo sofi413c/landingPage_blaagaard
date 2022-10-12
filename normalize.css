@@ -102,6 +102,9 @@ header nav li {
   padding: 0px 15px 10px 15px;
 }
 
+.mobil_header {
+  display: none;
+}
 .logo {
   max-width: 100%;
   height: auto;
@@ -129,5 +132,61 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+/* -----------------------MOBILVIEW------------------------ */
+/* Mobil header style */
+/* Skal kun aktivere på en vis width-size. Ellers default til desktop */
+/* Adapted from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
+/* Style the navigation menu */
+
+@media (max-width: 800px) {
+  .mobil_header {
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 5em;
+  }
+
+  header {
+    display: none;
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+
+  .topnav #myLinks {
+    display: none;
+    margin-right: 1em;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 1rem;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #m_logo {
+    max-width: 18rem;
+  }
+
+  .icon {
+    font-size: 2em;
+    background-color: rgba(247, 247, 247, 0);
   }
 }

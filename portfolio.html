@@ -1,126 +1,133 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
 
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="portfolio.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <a class="logo" href="index.html">
-        <img src="ikoner/blaa-logo.svg" alt="" srcset="" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
-           <li><button id="quiz_knap">QUIZ</button></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
 
-    <section id="popup">
-          <article>
-              <div id="luk">&#x2715</div>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Portfolio</title>
+</head>
 
-              <div class="quiz_wrap1">
-                <h1>QUIZ:</h1>
-                <h2>FIND DIT PERFEKTE BLAAGAARD-MATCH</h2>
-              </div>
-
-              <button id="start_knap">TAG TESTEN</button>
-              <div class="quiz_wrap2">
-                <p>ER DU I TVIVL OM, HVILKEN FORESTILLING HOS BLAAGAARD DU SKAL VÆLGE?</p>
-                <p>VED AT SVARE PÅ NOGLE FÅ SPØRGSMÅL OMKRING DINE INTERESSER OG HVILKEN OPLEVELSE DU ØNSKER, HJÆLPER VI DIG MED AT VÆLGE DEN PERFEKTE FORESTILLING TIL DET DU LEDER EFTER.</p>
-              </div>
-           </article>
-       </section>
-
-    <main>
-      <section class="section_1">
-        <div class="video">
-          <iframe
-            class="video2"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pVbAgWj42fo"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="tekst_1">
-          <h1>KAMPAGNEVIDEO</h1>
-          <p>
-            I vores kampagnevideo har vi sat fokus på <i>nærvær</i>,
-            <i>tilstedeværelse</i> og <i>ulfiltreret</i> underholdning. Dette er
-            med henblik på at ramme den unge og digitaliseret målgruppe, som vi
-            havde til formål at omfavne.
-          </p>
-        </div>
-      </section>
-
-      <section class="section_2">
-        <div class="billede_2">
-          <iframe
-            class="video2"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/pVbAgWj42fo"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="tekst_2">
-          <h1>SOME-VIDEO</h1>
-          <p>
-            For at kunne promovere videoen på diverse platforme, har vi
-            optimeret videoen, således den passer til Instagram og Facebook
-            format.
-          </p>
-        </div>
-      </section>
-
-      <section class="section_3">
-        <div class="billede_3">
-          <img src="img/forslag-til-some.png" alt="Placeholder" />
-        </div>
-        <div class="tekst_3">
-          <h1>FORSLAG TIL SOME-FEED</h1>
-          <p>
-            Vi har udarbejdet et visuelt bud på en Instagram-feed til Blaagaard
-            Teater. Det æstetiske udryk er altafgørende for en virksomhed, da
-            det er førstehåndsindtrykket og udtrykker profesionalisme.
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container">
-        <a class="footer_logo" href="index.html">
-          <img src="ikoner/blaa-logo.svg" alt="Blaagaard logo" width="120" />
-        </a>
-        <div class="footer_tekst">
-          <p>KEA MMD 2SEM © 2022 All Rights Reserved.</p>
-        </div>
-        <div class="medier">
-          <a href="https://www.facebook.com/blaagaardteater">
-            <img src="ikoner/fb.svg" alt="Facebook logo" width="50" />
-          </a>
-          <a href="https://www.instagram.com/blaagaardteater/">
-            <img src="ikoner/insta.svg" alt="Instagram logo" width="50" />
-          </a>
-        </div>
+<body>
+  <div class="mobil_header">
+    <div class="topnav">
+      <img src="ikoner/blaa-logo.svg" alt="icon" id="m_logo" />
+      <!-- Links til burgermenuen (links gemt som default) -->
+      <div id="myLinks">
+        <a href="portfolio.html">Portfolio</a>
       </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      <!-- Selve burgermenuens icon. Ikonet kan "toggle" (gemme/vise links) navigation links -->
+      <a class="icon" onclick="menuToggle()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <!-- Burgermenu slut-->
+  <header>
+    <a class="logo" href="index.html">
+      <img src="ikoner/blaa-logo.svg" alt="" srcset="" />
+    </a>
+    <nav>
+      <ul>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><button id="quiz_knap">QUIZ</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="popup">
+    <article>
+      <div id="luk">&#x2715</div>
+
+      <div class="quiz_wrap1">
+        <h1>QUIZ:</h1>
+        <h2>FIND DIT PERFEKTE BLAAGAARD-MATCH</h2>
+      </div>
+
+      <button id="start_knap">TAG TESTEN</button>
+      <div class="quiz_wrap2">
+        <p>ER DU I TVIVL OM, HVILKEN FORESTILLING HOS BLAAGAARD DU SKAL VÆLGE?</p>
+        <p>VED AT SVARE PÅ NOGLE FÅ SPØRGSMÅL OMKRING DINE INTERESSER OG HVILKEN OPLEVELSE DU ØNSKER, HJÆLPER VI DIG MED
+          AT VÆLGE DEN PERFEKTE FORESTILLING TIL DET DU LEDER EFTER.</p>
+      </div>
+    </article>
+  </section>
+
+  <main>
+    <section class="section_1">
+      <div class="video">
+        <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/pVbAgWj42fo"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="tekst_1">
+        <h1>KAMPAGNEVIDEO</h1>
+        <p>
+          I vores kampagnevideo har vi sat fokus på <i>nærvær</i>,
+          <i>tilstedeværelse</i> og <i>ulfiltreret</i> underholdning. Dette er
+          med henblik på at ramme den unge og digitaliseret målgruppe, som vi
+          havde til formål at omfavne.
+        </p>
+      </div>
+    </section>
+
+    <section class="section_2">
+      <div class="billede_2">
+        <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/pVbAgWj42fo"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="tekst_2">
+        <h1>SOME-VIDEO</h1>
+        <p>
+          For at kunne promovere videoen på diverse platforme, har vi
+          optimeret videoen, således den passer til Instagram og Facebook
+          format.
+        </p>
+      </div>
+    </section>
+
+    <section class="section_3">
+      <div class="billede_3">
+        <img src="img/forslag-til-some.png" alt="Placeholder" />
+      </div>
+      <div class="tekst_3">
+        <h1>FORSLAG TIL SOME-FEED</h1>
+        <p>
+          Vi har udarbejdet et visuelt bud på en Instagram-feed til Blaagaard
+          Teater. Det æstetiske udryk er altafgørende for en virksomhed, da
+          det er førstehåndsindtrykket og udtrykker profesionalisme.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <a class="footer_logo" href="index.html">
+        <img src="ikoner/blaa-logo.svg" alt="Blaagaard logo" width="120" />
+      </a>
+      <div class="footer_tekst">
+        <p>KEA MMD 2SEM © 2022 All Rights Reserved.</p>
+      </div>
+      <div class="medier">
+        <a href="https://www.facebook.com/blaagaardteater">
+          <img src="ikoner/fb.svg" alt="Facebook logo" width="50" />
+        </a>
+        <a href="https://www.instagram.com/blaagaardteater/">
+          <img src="ikoner/insta.svg" alt="Instagram logo" width="50" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
