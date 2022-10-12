@@ -115,7 +115,7 @@ header nav li {
 /* ---------------- Footer ---------------- */
 footer {
   padding: 2rem;
-  margin-top: 5rem;
+  /* margin-top: 2rem; */
   border-top: 2px solid white;
 }
 
