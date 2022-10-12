@@ -124,14 +124,11 @@ footer {
 }
 
 @media (min-width: 800px) {
-  footer {
-    margin-inline: 10rem;
-  }
-
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-inline: 10rem;
   }
 }
 
