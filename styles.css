@@ -148,6 +148,10 @@
     font-size: 2rem;
   }
 
+  .header {
+    padding: 1.5rem;
+  }
+
   /********** POPUP ***********/
 
   #quiz_knap {
