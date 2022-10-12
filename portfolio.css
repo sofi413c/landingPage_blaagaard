@@ -3,26 +3,10 @@ main {
   margin: 0 auto;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--dark-green);
-  padding: 1.5rem;
-}
-header nav li {
-  display: inline;
-}
-
-header nav {
-  border-bottom: 2px solid white;
-}
-
-.logo {
-  max-width: 100%;
-  height: auto;
-  width: 20rem;
-  place-self: center center;
+body {
+  background-image: url(img/blank_mobile_port.png);
+  background-size: contain;
+  background-position: center;
 }
 
 section {
@@ -32,6 +16,11 @@ section {
 }
 
 @media (min-width: 800px) {
+  body {
+    background-image: url(img/blank_web_port.png);
+    background-size: cover;
+  }
+
   .tekst_2 {
     place-self: center right;
   }
@@ -46,6 +35,4 @@ section {
   .tekst_2 {
     order: -1;
   }
-
-
 }
