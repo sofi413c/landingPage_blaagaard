@@ -81,7 +81,7 @@ li a:hover {
 }
 .header ul li {
   float: left;
-  padding: 0px 15px 0.5rem 15px;
+  padding: 0px 15px 10px 15px;
   justify-content: right;
 }
 
@@ -101,7 +101,7 @@ header nav ul,
 
 header nav li {
   display: inline;
-  padding: 0px 15px 0.5rem 15px;
+  padding: 0px 15px 10px 15px;
 }
 
 /* header nav ul,
